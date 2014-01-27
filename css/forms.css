@@ -1,0 +1,29 @@
+.searchform div {
+height: 26px;
+width: 193px;
+}
+
+.searchboxwrapper {
+position: relative;
+}
+
+.searchbox {
+border: 1px solid #000;
+color: #000;
+width: 181px;
+height: 26px;
+background-color: #fff;
+padding-left: 10px;
+}
+
+.searchsubmit {
+width: 30px;
+height: 29px;
+border: 1px solid #000;
+font-size: 1rem;
+position: absolute;
+top: 0;
+right: 0;
+background-color: #000;
+color: #fff;
+}
