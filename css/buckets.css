@@ -17,9 +17,9 @@
 	top: 12.52rem;
 	left: 1.1rem;
 	font-weight: 300;
-	color: #fff;
+	color: #000;
 	padding: .7rem 1rem .7rem 1.1rem;
-	background-color: rgba(0,0,0,1);
+	border: 1px solid #000;
 }
 
 .img-flex {
@@ -34,3 +34,28 @@
 }
 
 /*large bucket*/
+
+.deal-head-lrg{
+	position: absolute;
+	padding: 0 5px 0 5px;
+	color: #000;
+	font-weight: 300;
+}
+
+.deal-body-lrg{
+	position: absolute;
+	text-transform: uppercase;
+	top: 5rem;
+	left: 1.1rem;
+	font-weight: 300;
+	color: #000;
+	padding: .7rem .8rem .7rem .8rem;
+	border: 1px solid #000;
+}
+
+.btn-large{
+	position: absolute;
+	top: 9rem;
+	left: 1rem;
+}
+
