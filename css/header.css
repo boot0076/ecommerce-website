@@ -1,0 +1,163 @@
+@charset "UTF-8";
+/* Responsive Setup */
+
+@-moz-viewport { width: device-width; scale: 1;}
+@-ms-viewport { width: device-width; scale: 1;}
+@-webkit-viewport { width: device-width; scale: 1;}
+@-o-viewport { width: device-width; scale: 1;}
+@viewport { width: device-width; scale: 1;}
+
+html, body{
+    font-family: 'open-sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+header{
+	height:10em;
+    background-color: #FFF;
+    text-align:left;
+}
+
+.logo{
+    width: 150px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    left:0;
+}
+
+a,
+a:link{
+	border-bottom: none;
+}
+
+/*NAV*/
+.nav-btn,
+.nav-btn:link,
+.nav-btn:visited{
+    display: block;
+    height: 35px;
+    width: 50px;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    float: right;
+    background: url('../images/nav-icon.svg') no-repeat center center;
+}
+
+.nav a,
+.nav a:link,
+.nav a:visited{
+    display: inline-block;
+    font-weight: 400;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    padding: .5rem;
+}
+
+ul li:before {
+    content: none;
+}
+
+/* Toggle Nav CSS */
+.nav-top{
+    display:none;
+}
+
+.nav-top[data-state="expanded"]{
+    display:block;
+}
+
+.searchform div {
+    display: none;
+}
+
+/* MEDIA */
+@media only screen and (min-width: 30em) {
+
+    .intro{
+        margin-top: 10rem;
+    }
+
+    .logo{
+        width: 130px;
+        float:left;
+    }
+
+    header{
+    padding-left: 2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 500000;
+    right: 0;
+    }
+
+    .logo:hover{
+        -webkit-transform:scale(1.05); 
+        -moz-transform:scale(1.05); 
+        -ms-transform:scale(1.05); 
+        -o-transform:scale(1.05);
+        transform:scale(1.);
+
+        -webkit-transition-duration:0.3s; 
+        -moz-transition-duration:0.3s;
+        -ms-transition-duration:0.3s;
+        -o-transition-duration:0.3s; 
+        transition-duration:0.3s; 
+    }
+
+    .searchform div {
+        display: block;
+        margin-top: -2rem;
+        margin-right: 9rem;
+    }
+
+    .nav-btn,
+    .nav-btn:link,
+    .nav-btn:visited{
+        display: none;
+    } 
+
+    .nav-top{
+        margin-top: 4rem;
+        margin-left: 1rem;
+        float: left;
+        display: inline-block;
+    }
+
+    .nav li{ 
+        float: left;
+        padding-bottom: 2rem;
+    }
+
+    nav ul li a:hover{
+        border-top: solid #000 2px;
+        background: url('../images/nav-link-background.svg')no-repeat center center;
+    }
+
+    .nav a,
+    .nav a:link, 
+    .nav a:visited {
+        padding: 1rem;
+
+    }
+
+    .nav-bottom{
+        display: none;
+    }
+
+@media only screen and (min-width: 53em) {
+
+    .searchform div {
+        display: block;
+        margin-top: 4.5rem;
+        margin-right: 9rem;
+    }
+
+
+    }
+
+
