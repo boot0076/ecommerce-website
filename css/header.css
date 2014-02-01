@@ -15,7 +15,6 @@ html, body{
 }
 
 header{
-	height:10em;
     background-color: #FFF;
     text-align:left;
 }
@@ -66,6 +65,10 @@ ul li:before {
     display:none;
 }
 
+.nav-btn[data-state="active"]{
+    background: #000 url('../images/nav-close.svg') no-repeat center center;
+}
+
 .nav-top[data-state="expanded"]{
     display:block;
 }
@@ -74,8 +77,23 @@ ul li:before {
     display: none;
 }
 
+.social{
+    display: none;
+}
+
 /* MEDIA */
 @media only screen and (min-width: 30em) {
+
+    .searchform div {
+        float: right;
+        display: block;
+        margin-top: -1.5rem;
+        margin-right: 4.5rem;
+    }
+
+    .searchsubmit {
+        right: 0;
+    }
 
     .intro{
         margin-top: 10rem;
@@ -109,12 +127,6 @@ ul li:before {
         transition-duration:0.3s; 
     }
 
-    .searchform div {
-        display: block;
-        margin-top: -2rem;
-        margin-right: 9rem;
-    }
-
     .nav-btn,
     .nav-btn:link,
     .nav-btn:visited{
@@ -122,7 +134,7 @@ ul li:before {
     } 
 
     .nav-top{
-        margin-top: 4rem;
+        margin-top: 3.6rem;
         margin-left: 1rem;
         float: left;
         display: inline-block;
@@ -148,15 +160,20 @@ ul li:before {
     .nav-bottom{
         display: none;
     }
+}
 
-@media only screen and (min-width: 53em) {
+@media only screen and (min-width: 40em) {
 
     .searchform div {
+        float: right;
         display: block;
-        margin-top: 4.5rem;
-        margin-right: 9rem;
+        margin-top: 4.2rem;
+        margin-right: 1rem;
     }
 
+    .searchsubmit {
+        right: 0;
+    }
 
     }
 

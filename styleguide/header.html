@@ -19,7 +19,7 @@
 <body>
 
 <header>
-		<a href="#nav" class="nav-btn hide-text">Navigation</a>
+		<a href="#nav" class="nav-btn hide-text" data-state="inactive">Navigation</a>
 		<a href="#"><img src="../images/logo.svg" alt="Minimal Clothing Co." class="logo"></a>
 			<nav class="nav nav-top" data-state="collapsed">
 				<ul>
@@ -29,16 +29,23 @@
 				</ul>
 			</nav>
 
+			<ul class="social" id="social-icons">
+				<li class="social-icon facebook-icon"><a href="#facebook">#</a></li>
+				<li class="social-icon twitter-icon"><a href="#twitter">#</a></li>
+			</ul>
+
 			<form role="search" method="get" id="searchform" class="searchform" action="#" _lpchecked="1">
 				<div class="searchboxwrapper">
 			  		<input class="searchbox" type="text" value="" name="s" placeholder="Search..." id="s">
 					<input class="searchsubmit" type="submit" id="searchsubmit" value="➡">
 			 	</div>
 			</form>
+	
 </header>
 
+<main>
 <img src="http://placehold.it/1450x500" alt="Intro Image" class="img intro"/>
-
+</main>
 
 <script src="../js/nav.js"></script>
 </body>

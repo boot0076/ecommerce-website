@@ -1,7 +1,5 @@
 .searchform div {
-	float: right;
-	height: 26px;
-	width: 193px;
+	
 }
 
 .searchboxwrapper {
@@ -9,22 +7,23 @@
 }
 
 .searchbox {
+	margin-top: -1rem;
 	border: 1px solid #000;
 	color: #000;
-	width: 181px;
+	width: 150px;
 	height: 26px;
 	background-color: #fff;
 	padding-left: 10px;
 }
 
 .searchsubmit {
+	margin-top: -.5%;
 	width: 30px;
 	height: 29px;
 	border: 1px solid #000;
 	font-size: 1rem;
 	position: absolute;
 	top: 0;
-	right: 0;
 	background-color: #000;
 	color: #fff;
 }
