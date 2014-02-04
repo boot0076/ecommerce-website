@@ -1,0 +1,120 @@
+@charset "UTF-8";
+/* Responsive Setup */
+
+@-moz-viewport { width: device-width; scale: 1;}
+@-ms-viewport { width: device-width; scale: 1;}
+@-webkit-viewport { width: device-width; scale: 1;}
+@-o-viewport { width: device-width; scale: 1;}
+@viewport { width: device-width; scale: 1;}
+
+html, body{
+    font-family: 'open-sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+a,
+a:link{
+	border-bottom: none;
+}
+
+ul li:before{
+    content: none;
+}
+
+footer{
+	text-align: center;
+}
+
+footer p{
+	margin-left: 2.6rem;
+}
+
+/*Nav*/
+.nav a,
+.nav a:link,
+.nav a:visited{
+    display: inline-block;
+    font-weight: 400;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    padding: .5rem;
+}
+
+
+.social{
+	margin-top: 2rem;
+}
+
+.social li a,
+.social li a:link,
+.social li a:visited{
+    display: inline-block;
+    width: 40px;
+    height: 30px;
+    font-size: 16px;
+    text-align:center;
+    padding-top: 0.5rem;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+
+    color: #fff;    
+
+    -webkit-box-shadow: inset 0px 0px 0px 40px #000;
+    -moz-box-shadow: inset 0px 0px 0px 40px #000;
+    -ms-box-shadow: inset 0px 0px 0px 40px #000;
+    -o-box-shadow: inset 0px 0px 0px 40px #000;
+    box-shadow: inset 0px 0px 0px 40px #000;
+
+}
+
+.social li a:hover,
+.social li a:focus,
+.social li a:active{
+    -webkit-box-shadow: inset 0px 0px 0px 3px #fff;
+    -moz-box-shadow: inset 0px 0px 0px 3px #fff;
+    -ms-box-shadow: inset 0px 0px 0px 3px #fff;
+    -o-box-shadow: inset 0px 0px 0px 3px #fff;
+    box-shadow: inset 0px 0px 0px 3px #fff;
+    color: #000;
+}
+
+@media only screen and (min-width: 37em) {
+
+	.nav-bottom{
+		display: none;
+	}
+
+	.social ul {
+	    list-style: none;
+	    padding: 0;
+	    margin: 0;
+	    text-align: center;
+	}
+
+	.social li{
+	    float: none;
+	    display:inline;
+	    margin: 0 .5rem;
+	}
+
+	.social li a {
+	    display:inline-block;
+	}
+
+	.social {
+	    text-align: center;
+	}
+
+	.social-links{
+	    margin-bottom: -2.5rem;
+	}
+	
+}
+
