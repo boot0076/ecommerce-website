@@ -91,7 +91,7 @@ footer p{
 		display: none;
 	}
 
-	.social ul {
+	.social ul{
 	    list-style: none;
 	    padding: 0;
 	    margin: 0;
@@ -104,7 +104,7 @@ footer p{
 	    margin: 0 .5rem;
 	}
 
-	.social li a {
+	.social li a{
 	    display:inline-block;
 	}
 
