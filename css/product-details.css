@@ -20,7 +20,6 @@ html, body{
 }
 
 .unit{
-	margin-left: 1rem;
 	background-color: white;
 	float: left;
 }
@@ -34,8 +33,17 @@ html, body{
 	margin-left: -1.4rem;
 }
 
+.main-img{
+	width: 92%;
+}
+
 .image-view{
-	display: none;
+	margin-top: .5rem;
+	width: 30%;
+}
+
+.gutter {
+	padding-left: 1rem;
 }
 
 /*Small Screen Width*/
@@ -47,23 +55,29 @@ html, body{
 @media only screen and (min-width: 30em) {
 
 	.image-view{
-		width: 25%;
-		margin-left: .5rem;
+		margin-top: .5rem;
+		width: 30%;
 		display: inline-block;
 	}
 
 	.unit-m-1-2{
 		width: 45%;
-		margin-left: 1rem;
 	}
 }
-@media only screen and (min-width: 30em) {
+
+@media only screen and (min-width: 60em) {
+
+.image-view{
+	width: 30%;
+}
 
 
 	.unit-m-1-2{
-		width: 35%;
-		margin-left: 1rem;
+		width: 25%;
 	}
 
 }
+
+
+
 
