@@ -7,7 +7,8 @@
 @-o-viewport { width: device-width; scale: 1;}
 @viewport { width: device-width; scale: 1;}
 
-html, body{
+html, 
+body{
     font-family: 'open-sans', sans-serif;
     margin: 0;
     padding: 0;
@@ -54,17 +55,16 @@ footer p{
 .social li a:visited{
     display: inline-block;
     width: 40px;
-    height: 30px;
+    height: 38px;
     font-size: 16px;
     text-align:center;
-    padding-top: 0.5rem;
+    padding-top: 0.5rem;  
+    color: #fff; 
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     border-radius: 50%;
-
-    color: #fff;    
 
     -webkit-box-shadow: inset 0px 0px 0px 40px #000;
     -moz-box-shadow: inset 0px 0px 0px 40px #000;
