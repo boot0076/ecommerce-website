@@ -113,20 +113,6 @@ ul li:before{
     right: 0;
     }
 
-    .logo:hover{
-        -webkit-transform:scale(1.05); 
-        -moz-transform:scale(1.05); 
-        -ms-transform:scale(1.05); 
-        -o-transform:scale(1.05);
-        transform:scale(1.);
-
-        -webkit-transition-duration:0.3s; 
-        -moz-transition-duration:0.3s;
-        -ms-transition-duration:0.3s;
-        -o-transition-duration:0.3s; 
-        transition-duration:0.3s; 
-    }
-
     .nav-btn,
     .nav-btn:link,
     .nav-btn:visited{
