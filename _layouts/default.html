@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Dinos 'R' Us</title>
+  <title>Minimal Clothing Co.</title>
   <meta name="handheldfriendly" content="true">
   <meta name="mobileoptimized" content="240">
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -11,7 +11,6 @@
   <link href="{{site.baseurl}}/css/typography.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/list-group.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/media-object.css" rel="stylesheet">
-  <link href="{{site.baseurl}}/css/embed.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/icons.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/buttons.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/grid.css" rel="stylesheet">
@@ -21,5 +20,80 @@
   <link href="{{site.baseurl}}/css/product-list.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/media-object.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/promos.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/forms.css" rel="stylesheet">
 </head>
 <body>
+
+<header>
+    <a href="#nav" class="nav-btn hide-text" data-state="inactive">Navigation</a>
+    <a href="#"><img src="../images/logo.svg" alt="Minimal Clothing Co." class="logo"></a>
+      <nav class="nav nav-top" data-state="collapsed">
+        <ul>
+          <li class="micro"><a href="#">Womens</a></li>
+          <li class="micro"><a href="#">About</a></li>
+          <li class="micro"><a href="#">Cart</a></li>
+        </ul>
+      </nav>
+
+      <ul class="social" id="social-icons">
+        <li class="social-icon facebook-icon"><a href="#facebook">#</a></li>
+        <li class="social-icon twitter-icon"><a href="#twitter">#</a></li>
+      </ul>
+
+      <form role="search" method="get" id="searchform" class="searchform" action="#">
+        <div class="searchboxwrapper">
+            <input class="searchbox" type="text" value="" name="s" placeholder="Search..." id="s">
+          <input class="searchsubmit" type="submit" id="searchsubmit" value="➡">
+        </div>
+      </form>
+</header>  
+
+{{content}}
+
+  <footer>
+    <div class="social-links">
+      <ul class="social">
+        <li>
+          <a class="ease-all" href="#">
+            <i class="fa fa-facebook"></i>
+            <span class="hide-text">Facebook</span>
+          </a>
+        </li>
+              
+        <li>
+          <a class="ease-all" href="#">
+            <i class="fa fa-twitter"></i>
+            <span class="hide-text">Twitter</span>
+          </a>
+        </li>
+              
+        <li>
+          <a class="ease-all" href="#">
+            <i class="fa fa-instagram"></i>
+            <span class="hide-text">Instagram</span>
+          </a>
+        </li>
+              
+        <li>
+          <a class="ease-all" href="#">
+            <i class="fa fa-pinterest"></i>
+            <span class="hide-text">Pinterest</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+          
+    <nav id="nav" class="nav nav-bottom">
+      <ul>
+        <li class="micro"><a href="#">Home</a></li>
+        <li class="micro"><a href="#">Flavors</a></li>
+        <li class="micro"><a href="#">About</a></li>
+        <li class="micro"><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <p class="micro">Sarah Bootsma 2013. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
