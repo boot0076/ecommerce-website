@@ -22,3 +22,10 @@
     -o-transition: all 350ms ease-in-out;
     transition: all 350ms ease-in-out;
 }
+
+/* MEDIA */
+@media only screen and (min-width: 30em){
+.main{
+    padding-top: 10.5rem;
+}
+}

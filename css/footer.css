@@ -47,7 +47,13 @@ footer p{
     padding: .5rem;
 }
 
+.social li{
+    margin: .3rem;
+    display: inline-block;
+}
+
 .social{
+    margin-bottom: -1rem;
     display: block;
 }
 
