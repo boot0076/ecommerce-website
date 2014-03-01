@@ -27,12 +27,13 @@
 
 <header>
     <a href="#nav" class="nav-btn hide-text" data-state="inactive">Navigation</a>
-    <a href="#"><img src="../images/logo.svg" alt="Minimal Clothing Co." class="logo"></a>
+    <a href="{{site.baseurl}}/"><img src="../images/logo.svg" alt="Minimal Clothing Co." class="logo"></a>
       <nav class="nav nav-top" data-state="collapsed">
         <ul>
-          <li class="micro"><a href="#">Womens</a></li>
-          <li class="micro"><a href="#">About</a></li>
-          <li class="micro"><a href="#">Cart</a></li>
+          <li class="micro"><a href="{{site.baseurl}}/">Home</a></li>
+          <li class="micro"><a href="{{site.baseurl}}/women/">Women</a></li>
+          <li class="micro"><a href="{{site.baseurl}}/about/">About</a></li>
+          <li class="micro"><li class="micro"><a href="{{site.baseurl}}/cart/">Cart</a></li></li>
         </ul>
       </nav>
 
@@ -43,10 +44,6 @@
         </div>
       </form>
 </header>  
-
-<main>
-  <img src="http://placehold.it/1450x630" alt="Intro Image" class="img intro"/>
-</main>
 
 {{content}}
 

@@ -136,13 +136,13 @@ ul li:before{
     }
 
     .nav li{ 
+        margin-left: .3rem;
         float: left;
         padding-bottom: 2rem;
     }
 
     nav ul li a:hover{
         border-top: solid #000 2px;
-        background: url('../images/nav-link-background.svg')no-repeat center center;
     }
 
     .nav a,
