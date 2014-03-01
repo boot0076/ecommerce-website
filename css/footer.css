@@ -45,8 +45,8 @@ footer p{
     padding: .5rem;
 }
 
-
 .social{
+    display: block;
 	margin-top: 2rem;
 }
 
@@ -92,6 +92,7 @@ footer p{
 	}
 
 	.social ul{
+        display: block;
 	    list-style: none;
 	    padding: 0;
 	    margin: 0;
@@ -109,12 +110,14 @@ footer p{
 	}
 
 	.social {
+        margin-bottom: -1rem;
+        display: block;
 	    text-align: center;
 	}
 
-	.social-links{
+	/*.social-links{
 	    margin-bottom: -2.5rem;
-	}
+	}*/
 	
 }
 
