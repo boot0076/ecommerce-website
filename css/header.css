@@ -95,6 +95,7 @@ ul li:before{
         float: right;
         display: block;
         margin-top: -1.5rem;
+        margin-bottom: 1rem;
         margin-right: 4.5rem;
     }
 
@@ -177,3 +178,20 @@ ul li:before{
 
 }
 
+.banner {
+    background: #6e9db1 url("../images/banner.svg") no-repeat center center;
+    background-size: cover;
+    padding: 4em 1em 1em;
+    text-align: center;
+}
+
+.banner h2{
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: #fff;
+}
+@media only screen and (min-width: 30em){
+    .banner { 
+        margin-top: 8rem;
+    }
+}
