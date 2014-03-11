@@ -113,13 +113,13 @@ ul li:before{
     }
 
     header{
-    padding-left: 2rem;
-    padding-bottom: 1.5rem;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 500000;
-    right: 0;
+        padding-left: 2rem;
+        padding-bottom: 1.5rem;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 500000;
+        right: 0;
     }
 
     .nav-btn,
@@ -155,6 +155,10 @@ ul li:before{
     .nav-bottom{
         display: none;
     }
+
+    .current{
+    border-top: solid #000 2px;
+    }
     
 }
 
@@ -172,5 +176,4 @@ ul li:before{
     }
 
 }
-
 

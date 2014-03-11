@@ -30,10 +30,13 @@
     <a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/images/logo.svg" alt="Minimal Clothing Co." class="logo"></a>
       <nav class="nav nav-top" data-state="collapsed">
         <ul>
-          <li class="micro"><a href="{{site.baseurl}}/">Home</a></li>
-          <li class="micro"><a href="{{site.baseurl}}/women/">Women</a></li>
-          <li class="micro"><a href="{{site.baseurl}}/about/">About</a></li>
-          <li class="micro"><li class="micro"><a href="{{site.baseurl}}/cart/">Cart</a></li></li>
+          <li class="micro"><a class="{% if page.url =='/' %}current{% endif %}" href="{{site.baseurl}}/">Home</a></li>
+          
+          <li class="micro"><a class="{% if page.url contains 'women' %}current{% endif %}" href="{{site.baseurl}}/women/">Women</a></li>
+          
+          <li class="micro"><a class="{% if page.url =='/about/' %}current{% endif %}" href="{{site.baseurl}}/about/">About</a></li>
+          
+          <li class="micro"><li class="micro"><a class="{% if page.url =='/cart/' %}current{% endif %}" href="{{site.baseurl}}/cart/">Cart</a></li></li>
         </ul>
       </nav>
 
