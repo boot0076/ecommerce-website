@@ -14,9 +14,18 @@ meta: A Canadian-based cutting edge retailer offering women's clothing and acces
 	<link href="{{site.baseurl}}/css/about.css" rel="stylesheet">
 </head>
 <body>
-
 <main class="main">
-  <img src="{{site.baseurl}}/images/large-promo.jpg" alt="large image" class="img-flex women-img">
+	<div class="grid">
+		<div class="gutter unit unit-s-1 unit-m-1-3 unit-l-1-3">
+			{% include promo-small.html title="Promo 1" desc="Super-Duper!" image="../images/shirt.jpg" %}
+		</div>
+		<div class="gutter unit unit-s-1 unit-m-1-3 unit-l-1-3">
+			{% include promo-small.html title="Promo 2" desc="Amaze-balls!" image="../images/shirt.jpg" %}
+		</div>
+		<div class="gutter unit unit-s-1 unit-m-1-3 unit-l-1-3">
+			{% include promo-small.html title="Promo 3" desc="Fantastico!" image="../images/shirt.jpg"%}
+		</div>
+	</div>
 </main>
 
 </body>
