@@ -15,14 +15,14 @@ html, body{
 }
 
 header{
-    padding-bottom: 1rem;
+    padding-bottom: .5rem;
     background-color: #FFF;
     text-align:left;
 }
 
 .logo{
     margin-left: 1rem;
-    width: 150px;
+    width: 100px;
     margin-top: 1rem;
     text-align: center;
     left:0;
@@ -108,13 +108,13 @@ ul li:before{
 
     .logo{
         margin-left: 0;
-        width: 130px;
+        width: 90px;
         float:left;
     }
 
     header{
         padding-left: 2rem;
-        padding-bottom: 1.5rem;
+        padding-bottom: .1rem;
         position: fixed;
         top: 0;
         left: 0;
@@ -129,7 +129,7 @@ ul li:before{
     } 
 
     .nav-top{
-        margin-top: 3.6rem;
+        margin-top: 3rem;
         margin-left: 1rem;
         float: left;
         display: inline-block;
@@ -167,7 +167,7 @@ ul li:before{
     .searchform div{
         float: right;
         display: block;
-        margin-top: 4.2rem;
+        margin-top: 3rem;
         margin-right: 1rem;
     }
 
