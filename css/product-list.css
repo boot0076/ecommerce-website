@@ -6,3 +6,17 @@
 .btn{
 	margin-top: .5em;
 }
+
+.product-list h2{
+	border-top: #000 solid 1px;
+	font-size: 1rem;
+	text-align: center;
+	margin-bottom: 0;
+	margin-top: 1rem;
+}
+
+.product-list p{
+	text-align: center;
+	font-size: .8rem;
+	text-transform: uppercase;
+}

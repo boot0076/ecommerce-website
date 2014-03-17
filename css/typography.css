@@ -178,21 +178,21 @@ q {
 
 a,
 a:link {
-  color: #B2B2B2;
+  color: #000;
   text-decoration: none;
   border-bottom: 1.5px solid rgba(178, 178, 178, .5);
   transition: all 200ms linear;
 }
 
 a:visited{
-  color: #B2B2B2;
+  color: #000;
   border-bottom-color: rgba(178, 178, 178, .5);
 }
 
 a:hover,
 a:focus,
 a:active {
-  color: #7D7D7D;
+  color: #000;
   border-bottom-color: #7D7D7D;
 }
 
