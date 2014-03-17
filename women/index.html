@@ -1,0 +1,23 @@
+---
+layout: default
+title: Women
+---
+
+<div class="main">
+<h1>Women</h1>
+</div>
+
+<ul>
+	{% for women in site.pages %}
+		<!-- How to filter different sections for pages -->
+		{% if women.category == 'women' %}
+		<li>
+			<a href="{{site.baseurl}}{{women.url}}">
+				<!-- spits out images from the top of each section's page (if you want image)
+				<img src="{{site.baseurl}}/images/{{women.image}}" alt="">-->
+				{{women.name}}
+			</a>
+		</li>
+		{% endif %}
+	{% endfor %}
+</ul>

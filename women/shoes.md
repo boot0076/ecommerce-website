@@ -1,5 +1,5 @@
 ---
 layout: women
 category: women
-name: Tops
+name: Shoes
 ---
