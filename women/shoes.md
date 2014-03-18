@@ -1,7 +1,5 @@
 ---
-layout: women
+layout: shoes-1
 category: women
 name: Shoes
 ---
-
-<h1>HELLo</h1>
