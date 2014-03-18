@@ -1,0 +1,14 @@
+
+<ul class="sub-links milli">
+	{% for women in site.pages %}
+		{% if women.category == include.category %}
+	<li>
+		<a href="{{site.baseurl}}{{women.url}}">
+		<img src="{{site.baseurl}}/images/women/{{women.image}}" alt="{{women.title}}">
+		<h3>{{women.title}}</h3></a>
+		<p>{{women.meta}}</p>
+		<p>{{women.cost}}</p>
+	</li>
+		{% endif %}
+	{% endfor %}
+</ul>

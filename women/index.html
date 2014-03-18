@@ -3,30 +3,19 @@ layout: default
 title: Women
 ---
 
-<!--SUB NAV -->
-<div class="main sub-nav">
-
-<h1 class="milli women-title">WOMENS:</h1>
-
-<ul class="sub-links milli">
-	{% for women in site.pages %}
-		<!-- How to filter different sections for pages -->
-		{% if women.category == 'women' %}
-		<li>
-			<a href="{{site.baseurl}}{{women.url}}">
-				<!-- spits out images from the top of each section's page (if you want image)
-				<img src="{{site.baseurl}}/images/{{women.image}}" alt="">-->
-				{{women.name}}
-			</a>
-		</li>
-		{% endif %}
-	{% endfor %}
-</ul>
-
+<!--SUB NAV-->
+<div class="main">
+	<h1>Womens</h1>
+		<h2>Blouses</h2>
+			{% include women-list.html category='blouse' %}
+		<h2>Tanks</h2>
+			{% include women-list.html category='tanks' %}
+		<h2>Plain Tees</h2>
+			{% include women-list.html category='plain'%}
 </div>
 
 
-<!--PRODUCT LIST ITEMS START-->
+<!--PRODUCT LIST ITEMS START
 	<div class="grid main">
 		<div class="gutter unit unit-s-1 unit-m-1-3 unit-l-1-3">
 			{% include product-list.html title="Crop Top" desc="All new spring apparel!" image="../images/shirt.jpg" %}
@@ -88,4 +77,4 @@ title: Women
 			{% include product-list.html title="Black Blouse" desc="50% off all winter apparel." image="../images/shirt.jpg"%}
 		</div>
 
-	</div>
+	</div>-->

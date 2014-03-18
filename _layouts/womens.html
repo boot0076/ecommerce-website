@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<strong>Womens</strong>
+
+<nav>
+	<ul>
+		{% for women in site.categories.women-category %}
+		<li>
+			<a href="{{site.baseurl}}/women/blouses/">{{women.title}}</a>
+		</li>
+		{% endfor %}
+	</ul>
+</nav>
+
+{{content}}

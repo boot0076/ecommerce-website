@@ -9,6 +9,10 @@
 	margin-bottom: 0;
 }
 
+.women-title:hover{
+	background-color: #ccc;
+}
+
 .sub-nav{
 	float: left;
 }
@@ -17,4 +21,8 @@
 	font-size: .8rem;
 	text-transform: uppercase;
 	color: #000;
+}
+
+.sub-link:hover{
+	background-color: #ccc;
 }
