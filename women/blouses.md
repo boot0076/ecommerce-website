@@ -1,7 +1,5 @@
 ---
 layout: women
 category: women
-name: Tops
+name: Blouses
 ---
-
-{{content}}
