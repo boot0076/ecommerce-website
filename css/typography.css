@@ -233,3 +233,7 @@ tbody tr:nth-child(odd) td {
 .space-none{
   margin-bottom: 0;
 }
+
+.gutter {
+  padding-left: 1rem;
+}
