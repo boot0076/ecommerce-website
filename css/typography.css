@@ -235,5 +235,6 @@ tbody tr:nth-child(odd) td {
 }
 
 .gutter {
-  padding-left: 1rem;
+  padding-left: .7rem;
+  padding-right: .7rem;
 }
