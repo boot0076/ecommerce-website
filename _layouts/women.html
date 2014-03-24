@@ -1,21 +1,21 @@
 ---
-layout: default
+layout: womens
 ---
+	<h1 class="details-brand">{{page.title}}</h1>
+	<h2 class="details-name milli">{{page.meta}}</h2>
 
-<div class="main">
-<h1>{{page.title}}</h1>
-<h2>{{page.meta}}</h2>
+	<img src="{{site.baseurl}}/images/women/{{page.image}}" alt="Photo of {{page.image}}" class="img-flex details-image">
 
-<img src="{{site.baseurl}}/images/women/{{page.image}}" alt="Photo of {{page.image}}">
+	<ul class="details-list milli">
+		<li><strong>Cost:</strong> {{page.cost}}</li>
+		<li><strong>Availability:</strong> {{page.avail}}</li>
+		<li><strong>Details:</strong> {{page.details}}</li>
+		<li><strong>Material:</strong> {{page.material}}</li>
+		<li><strong>Size:</strong> {{page.size}}</li>
+		<li><strong>Measurement:</strong> {{page.measure}}</li>
+		<li><strong>Features:</strong> {{page.feature}}</li>
+	</ul>
 
-<dl>
-	<dt>Cost</dt><dd>{{page.cost}}</dd>
-	<dt>Availability</dt><dd>{{page.avail}}</dd>
-	<dt>Details</dt><dd>{{page.details}}</dd>
-	<dt>Material</dt><dd>{{page.material}}</dd>
-	<dt>Size</dt><dd>{{page.size}}</dd>
-	<dt>Measurement</dt><dd>{{page.measure}}</dd>
-	<dt>Features</dt><dd>{{page.feature}}</dd>
-</dl>
-</div>
+	<a class="btn details-btn micro" href="#">Buy Now ></a>
+
 {{content}}

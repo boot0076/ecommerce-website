@@ -26,8 +26,6 @@
 	margin-bottom: 0;
 }
 
-
-
 .sub-nav-li{
 	margin-top: .3rem;
 }
@@ -36,7 +34,38 @@
 	text-transform: uppercase;
 }
 
+.details-brand{
+	text-align: center;
+	font-weight: 300;
+	margin-bottom: 0;
+}
+
+.details-name{
+	text-align: center;
+	border-bottom: 1px solid #000;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.details-image{
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 90%;
+}
+
+.details-list{
+	margin-left: -1.4rem;
+	margin-right: 5%;
+	margin-top: 1rem;
+}
+
+.details-btn{
+	margin-left: 1rem;
+}
+
+
 @media only screen and (min-width: 30em) {
+
 	.sub-nav{
 		position: fixed;
 		z-index: 3000;
@@ -56,6 +85,35 @@
 	.sub-nav-page{
 		overflow: hidden;
 	}
+
+	.details-image{
+		float: left;
+		width: 90%;
+		margin-bottom: 1rem;
+	}
+
+	.details-btn{
+		margin-left: 0;
+	}
+
+}
+
+@media only screen and (min-width: 40em) {
+	.details-image{
+		width: 30%;
+		margin-bottom: 6rem;
+		margin-left: 10%;
+	}
+
+	.details-list{
+		margin-right: 10%;
+	}
+
+	.details-name{
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+
 }
 
 @media only screen and (min-width: 50em) {
@@ -65,4 +123,21 @@
 		margin-left: 20rem;
 		margin-right: 20rem;
 	}
+
+	.details-name{
+		margin-left: 20%;
+		margin-right: 20%;
+	}
+
+	.details-image{
+		margin-left: 20%;
+	}
+
+	.details-list{
+		margin-right: 20%;
+	}
 }
+
+
+
+
