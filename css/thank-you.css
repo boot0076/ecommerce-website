@@ -7,7 +7,7 @@
 .informal {
 	padding-top: 12rem;
 	margin-left: 3rem;
-	font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+	font-family: "Open Sans", sans-serif;
 	font-weight: 200;
 	text-align: center;
 	color: #FFF;
@@ -17,13 +17,13 @@
 .informal p:nth-child(1) {
   color: #fff;
   text-transform: uppercase;
-  font-weight: 800;
+  font-weight: 600;
   font-size: 80px;
-  text-shadow: 4px 5px #EB9713, 6px 7px #fff;
+  text-shadow: 4px 5px #000, 6px 7px #fff;
   letter-spacing: 3px;
 }
 
 .main{
-	background: url("../images/orange.jpg") repeat repeat;
+	background: url("../images/thank-you.jpg") repeat repeat;
 	padding-bottom: 15rem;
 }

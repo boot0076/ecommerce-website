@@ -52,6 +52,7 @@ footer p{
 }
 
 .social{
+    clear: both;
     margin-bottom: -1rem;
     display: block;
 }
