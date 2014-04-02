@@ -23,6 +23,10 @@
     transition: all 350ms ease-in-out;
 }
 
+.block-link{
+    display: block;
+}
+
 /* MEDIA */
 @media only screen and (min-width: 30em){
 .main{

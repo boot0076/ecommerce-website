@@ -27,10 +27,10 @@
 </head>
 <body>
 
-<header>
+<header role="banner">
     <a href="#nav" class="nav-btn hide-text" data-state="inactive">Navigation</a>
     <a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/images/logo.svg" alt="Minimal Clothing Co." class="logo"></a>
-      <nav class="nav nav-top" data-state="collapsed">
+      <nav class="nav nav-top" data-state="collapsed" role="navigation">
         <ul>
           <li class="micro"><a class="{% if page.url =='/' %}current{% endif %}" href="{{site.baseurl}}/">Home</a></li>
           
@@ -38,13 +38,13 @@
           
           <li class="micro"><a class="{% if page.url =='/about/' %}current{% endif %}" href="{{site.baseurl}}/about/">About</a></li>
           
-          <li class="micro"><li class="micro"><a class="{% if page.url =='/cart/' %}current{% endif %}" href="{{site.baseurl}}/cart/">Cart</a></li></li>
+          <li class="micro"><a class="{% if page.url =='/cart/' %}current{% endif %}" href="{{site.baseurl}}/cart/">Cart</a></li>
         </ul>
       </nav>
 
       <form role="search" method="get" id="searchform" class="searchform" action="{{site.baseurl}}/search/">
         <div class="searchboxwrapper">
-            <input class="searchbox" type="text" value="" name="s" placeholder="Search..." id="s">
+            <input class="searchbox" type="text" value="" title="search bar" name="s" placeholder="Search..." id="s">
           <input class="searchsubmit" type="submit" id="searchsubmit" value="➡">
         </div>
       </form>
@@ -100,7 +100,7 @@
       </ul>
     </nav>
 
-    <p class="micro">Sarah Bootsma 2013. All Rights Reserved.</p>
+    <p class="micro" role="contentinfo">Sarah Bootsma 2013. All Rights Reserved.</p>
   </footer>
   
 <script src="{{site.baseurl}}/js/nav.js"></script>
