@@ -2,11 +2,11 @@
 layout: women
 meta: Mustard Collared Detailed Blouse
 avail: In-Stock
-details: Lace
+details: Front Pockets
 material: 100% Polyester
 size: Fits Small
-measure: L 22" W 19"
-feature: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at arcu consequat, ultrices velit ac, convallis augue. Sed egestas odio ut felis malesuada, sit amet tempor.
+measure: L 24" W 20"
+feature: A white, flowy blouse with a mustard coloured collar and buttons. This blouse also features two front flapped pockets.
 cost: $42.00
 title: Obesity & Speed
 image: blouse-9.jpg

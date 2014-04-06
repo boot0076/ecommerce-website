@@ -2,11 +2,11 @@
 layout: women
 meta: Pale Colour Blocked Sectioned Crop
 avail: In-Stock
-details: Lace
+details: Colour Blocks
 material: 100% Polyester
 size: Fits Small
-measure: L 22" W 19"
-feature: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at arcu consequat, ultrices velit ac, convallis augue. Sed egestas odio ut felis malesuada, sit amet tempor.
+measure: L 17" W 18"
+feature: A colour blocked crop top which features a white bottom block and a beige coloured block. 
 cost: $30.00
 title: MNIML
 image: plain-9.jpg

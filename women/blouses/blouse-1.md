@@ -2,11 +2,11 @@
 layout: women
 meta: Black Cut-off Blouse
 avail: In-Stock
-details: Lace
+details: Cut-off Shoulder
 material: 100% Polyester
 size: Fits Small
-measure: L 22" W 19"
-feature: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at arcu consequat, ultrices velit ac, convallis augue. Sed egestas odio ut felis malesuada, sit amet tempor.
+measure: L 19" W 20"
+feature: A black blouse with cut-off shoulders, and a gold tip detailed collar. This blouse also features two front pockets and gold buttons.
 cost: $45.00
 title: Avelon 
 image: blouse-1.jpg

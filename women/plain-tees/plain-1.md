@@ -2,11 +2,11 @@
 layout: women
 meta: Black Laced Back Long Sleeve
 avail: In-Stock
-details: Lace
-material: Cotton
+details: Lace Back
+material: 100% Cotton
 size: Fits Small
-measure: L 22" W 19"
-feature: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at arcu consequat, ultrices velit ac, convallis augue. Sed egestas odio ut felis malesuada, sit amet tempor.
+measure: L 26" W 19"
+feature: A black cotton long sleeve tee with a deep front v-neck. This tee also features a laced textured back which is longer than the front of the tee.
 cost: $56.00
 title: Neuw
 image: plain-1.jpg

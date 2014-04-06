@@ -3,11 +3,11 @@ layout: women
 meta: Demin Collared See-Thru Tank
 avail: In-Stock
 details: Lace
-material: Cotton
-size: Fits Small
-measure: L 22" W 19"
-feature: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at arcu consequat, ultrices velit ac, convallis augue. Sed egestas odio ut felis malesuada, sit amet tempor.
-cost: $20.00
+material: 100% Polyster
+size: Fits Small & Medium
+measure: L 24" W 19"
+feature: A white flowy button up tank blouse, with a jean textured collar.  
+cost: $26.00
 title: NEUW
 image: tank-5.jpg
 category: tanks

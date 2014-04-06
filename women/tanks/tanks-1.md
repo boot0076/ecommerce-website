@@ -5,8 +5,8 @@ avail: In-Stock
 details: Lace
 material: Cotton
 size: Fits Small
-measure: L 22" W 19"
-feature: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at arcu consequat, ultrices velit ac, convallis augue. Sed egestas odio ut felis malesuada, sit amet tempor.
+measure: L 21" W 19"
+feature: A pinkish, biege lace inserted tank.
 cost: $20.00
 title: MNIML
 image: tank-1.jpg
