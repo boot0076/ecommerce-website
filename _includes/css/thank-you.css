@@ -5,7 +5,7 @@
 }
 
 .informal {
-	padding-top: 12rem;
+	padding-top: 20rem;
 	margin-left: 3rem;
 	font-family: "Open Sans", sans-serif;
 	font-weight: 200;
@@ -23,7 +23,7 @@
   letter-spacing: 3px;
 }
 
-.main{
+.thank-background{
 	background: url("../images/thank-you.jpg") repeat repeat;
-	padding-bottom: 15rem;
+	padding-bottom: 14rem;
 }
