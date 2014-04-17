@@ -27,6 +27,11 @@
     display: block;
 }
 
+
 .main{
+    padding-top: 8rem;
+}
+
+.large-img{
     padding-top: 6rem;
 }
