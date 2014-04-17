@@ -27,9 +27,6 @@
     display: block;
 }
 
-/* MEDIA */
-@media only screen and (min-width: 30em){
 .main{
-    padding-top: 8rem;
-}
+    padding-top: 6rem;
 }
