@@ -1,0 +1,16 @@
+/*TEAM*/
+
+Designer & Developer: Sarah Bootsma
+Behance: http://behance.net/sarahbootsma
+Location: Ottawa, Canada
+
+
+/*THANKS*/
+Thank you Thomas Bradley for teaching me how to build this ecommerce website!
+
+
+/*SITE*/
+Last update: 20/04/2014
+Standards: HTML5, CSS3
+Components: Javascript, Jekyll
+Software: Adobe, Sublime Text 2, Github
