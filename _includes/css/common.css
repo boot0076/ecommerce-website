@@ -26,12 +26,12 @@
 .block-link{
     display: block;
 }
+@media only screen and (min-width: 30em) {
+    .main{
+        padding-top: 8rem;
+    }
 
-
-.main{
-    padding-top: 8rem;
-}
-
-.large-img{
-    padding-top: 6rem;
+    .large-img{
+        padding-top: 6rem;
+    }
 }
